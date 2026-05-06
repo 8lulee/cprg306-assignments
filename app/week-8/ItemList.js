@@ -56,6 +56,14 @@ export default function ItemList({ items, onItemSelect }) {
         >
           Group by Category
         </button>
+
+         <button
+          type="button"
+          onClick={() => setSortBy("grouped")}
+          className={buttonClass("grouped")}
+        >
+         xxxxxxx
+        </button>
       </div>
 
       {sortBy === "grouped" ? (
