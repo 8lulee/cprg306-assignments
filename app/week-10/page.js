@@ -28,6 +28,12 @@ export default function Page() {
           >
             Sign Out
           </button>
+          <button
+            onClick={firebaseSignOut}
+            className="rounded-md bg-gray-200 px-5 py-2 font-semibold text-gray-800 hover:bg-gray-300"
+          >
+            Sign In
+          </button>
         </div>
       ) : (
         <button
@@ -36,6 +42,7 @@ export default function Page() {
         >
           Sign in with GitHub
         </button>
+        
       )}
     </main>
   );
